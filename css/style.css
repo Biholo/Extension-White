@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --border-color: white;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+
+}
+body {
+    width: 400px; 
+    height: 200px; 
+    background-image: url('images/background.png'); 
+    display: flex;
+  
+}
+
+p {
+    font-family: 'Bebas Neue';
+    font-size: 20px;
+    color: white;
+}
+
+
+.hg{
+    position: absolute;
+    margin: 10px 10px 10px 10px;
+    width: 130px;
+    height:20px;
+    cursor: pointer;
+    
+}
+
+.bg{
+    position: absolute;
+    margin: 30px 10px 10px 10px;
+    width: 130px;
+    height: 160px;
+    border-style: none none solid solid;
+
+   
+}
+
+.hm {
+    position: absolute;
+    margin: 10px 10px 10px 140px;
+    width: 130px;
+    height:20px;    cursor: pointer;
+}
+.bm {
+    position: absolute;
+    margin: 30px 10px 10px 140px;
+    width: 130px;
+    height:160px;
+    border-style: none none solid none;
+}
+
+
+.bd {
+    
+    position: absolute;
+    margin: 30px 10px 10px 270px;
+    width: 120px;
+    height:160px;
+    border-style: solid solid solid none;
+}
+
+.set-border {
+    border-width:1px ;
+    box-sizing: border-box;
+    border-color: white;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+/* activation twitch/youtube */
+.active{
+    border-width:1px ;
+    border-color: white;
+    border-style: solid solid none solid;
+}
+
+.h-active {
+    border-top: solid white 1px;
+}
+
+/* Youtube / Twitch */
+/* youtube part */
+.title{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}
+
+.emoji {
+    width: 25px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.placement {
+    z-index: 2;
+    justify-content: space-evenly;
+    margin: 32px 0px 10px 10px;
+    display: flex;
+    width: 380px;
+}
+
+.aff-vod{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 0px 30px 0px;
+}
+.titleT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.border-center {
+    margin-top: 15px;
+    width: 1px;
+    background-color: white;
+    height:120px;
+}
+
+/* style miniature video */
+.template-vod:hover{
+    box-sizing: border-box;
+    border: solid white 1px;
+}
+
+.template-vod {
+    width: 150px;
+}
+
+
+/* Twitch part */
+#Logo {
+    width: 100px;
+}
+#hand-off,#hand-on{
+    width: 50px;
+}
+.pseudo {
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+}
+.pseudo span {
+    color: #be4e64;
+}
+
+.statut {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dispo{
+    display: flex;
+    align-items: center;
+}
+.on-off{
+    font-size: 40px;
+}
+
+/* Changement de twitch à youtube */
+.switch {
+    display: none;
+}
+/* Reseaux */
+.reseaux{
+    z-index: 2;
+    top: 164px;
+    left: 239px;
+    display: flex;
+    background-color: black;
+    width: 150px;
+    position: absolute;
+    justify-content: space-evenly;
+    border-radius: 20px 0px 0px 0px;
+
+
+}
+.lien {
+    color: white;
+    font-size: 18px;
+    width: 15px;
+    justify-content: center;
+    margin: 4px 0px 0px 0px;
+    opacity: 70%;
+}
+.lien:hover{
+    opacity: 100%;
+}

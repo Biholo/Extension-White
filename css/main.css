@@ -1,0 +1,109 @@
+
+
+header {
+    margin:0;
+    padding: 0;   
+}
+
+body {
+    margin:0;
+    padding: 0;
+    border: 0;
+    width: 400px; 
+    height: 200px; 
+    background-image: url('images/main_extension.png');   
+}
+div canvas#logo {
+    position: absolute;
+    width: 30px; 
+    height: 30px;
+}
+.discord {
+    background-image: url('images/logo/discord.png');
+    top: 171px;
+    left: 340px;
+}
+.lolpro {
+    background-image: url('images/logo/lolpro.png');
+    top: 171px;
+    left: 368px;
+}
+
+.twitch {
+    background-image: url('images/logo/twitch.png');
+    top: 172px;
+    left: 250px;
+}
+.twitter {
+    background-image: url('images/logo/twitter.png');
+    top: 172px;
+    left: 310px;
+}
+
+.ytb {
+    background-image: url('images/logo/ytb.png');
+    top: 171px;
+    left: 280px;
+}
+
+div#trans a:hover {
+    opacity:0.65 ;  
+}
+
+div#statut canvas{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 57px; 
+    height: 12px;
+}
+
+div#statut2 canvas{
+    width: 198px; 
+    height: 68px;
+    top: 33px;
+    left: 198px;
+    position: absolute;
+}
+
+img#emplacement{
+    width:94px;
+    height:53px;
+    position: absolute;
+    top: 112px;
+    left: 290px;
+}
+
+img#emplacement:hover {
+    border: solid 1px white ;
+}
+
+img#txt_vod {
+    position: absolute;
+    width:83px;
+    height:46px;
+    top: 118px;
+    left: 200px;
+
+}
+.opac {
+    opacity: 0;
+}
+
+canvas#live_on:hover {
+    opacity: 0.5;
+}
+
+.live_offline {
+    background-image: url('images/offline.png');
+}
+.live_off { 
+    background-image: url('images/pas_en_live.png');
+}
+
+.live_online {
+    background-image: url('images/online.png');
+}
+.live_on {
+    background-image: url('images/en_live.png');
+}

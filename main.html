@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Whiteakitout Live Alert</title>
+
+</head>
+<body>
+    
+
+    <div class="bg set-border ytb-ctive" id="bg"> </div>
+    <div class="bm set-border h-active" id="bm"></div>
+    <div class="bd set-border"></div>
+
+    <div class="hg set-border active " id="pop-twitch">
+        <h3 class="title">Twitch</h3>
+    </div>
+    <div class="hm set-border " id="pop-youtube"><h3 class="title">Youtube</h3></div>
+
+<!--  Affichage de youtube -->
+        <div class="youtube placement switch" id="youtube">
+            <div class="aff-vod">
+                <div class="titleT">
+                    <p>Dernière Vidéo</p>
+                    <img class ='emoji'src="css/images/calp.png">
+                </div>
+                <div class="youtube-container"></div>
+
+            </div>
+            <div class="border-center">
+
+            </div>
+            <div class="aff-vod">
+                <div class="titleT">
+                    <p>Vidéo aléatoire</p>
+                </div>
+                <div class="youtube-container2"></div>
+                
+            </div>
+        </div>
+
+<!-- Affichage Twitch -->
+    <div class="twitch placement " id="twitch">
+       <div class="statut">
+           
+           <img id="Logo" src="css/images/get_started128.png">
+           <p class='pseudo'><span>White</span>akitout</p>
+       </div>
+       <div class="border-center"></div>
+       <div class="statut offline" id="off">
+        <a href="https://twitch.tv/whiteakitout789" target="_blank"><div class="dispo">
+                <p class="on-off">OFF</p>
+                <img id="hand-off" src="css/images/hand_off.png">
+            </div></a>
+            <p>Pas encore en Stream !</p>
+        </div>
+        <div class="statut online switch" id="on">
+            <a href="https://twitch.tv/whiteakitout789" target="_blank"><div class="dispo">
+                <p class="on-off">On</p>
+                <img id="hand-on" src="css/images/hand_on.png">
+            </div></a>
+            <p>Rejoins vite le stream !</p>
+        </div>
+    </div> 
+        <div class="reseaux">
+            <a href="https://twitter.com/whiteakitout" target="_blank"><i class='bx bxl-twitter lien'></i></a>
+            <a href="https://twitch.tv/whiteakitout789" target="_blank"><i class='bx bxl-twitch lien'></i></a>
+            <a href="https://www.youtube.com/channel/UC7zZVvbqzq-dKE1qdGazFmQ" target="_blank"><i class='bx bxl-youtube lien'></i></a>
+            <a href="https://discord.gg/J8Sn3zceTh" target="_blank"><i class='bx bxl-discord-alt lien'></i></a>
+            <a href="https://lolpros.gg/player/whiteakitout" target="_blank"><img class='lien' src="/css/images/lolpro.png"></a>
+        </div>
+
+
+   
+    <script src="popup.js"></script>
+    <script src="youtubeApi.js"></script>
+ </body>
+</html>
